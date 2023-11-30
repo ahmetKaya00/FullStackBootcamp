@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .custom-table{
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    .custom-table th{
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-align: left;
+        padding: 8px;
+    }
+    .custom-table tbody tr:hover{
+        background-color: #e5e5e5;
+    }
+    .custom-table td{
+        padding: 8px;
+        border-bottom: 1px solid #ccc;
+    }
+    .custom-table tbody tr:nth-child(even){
+        background-color: #f9f9f9;
+    }
+    </style>
+    
+</head>
+<body>
+    <table class="custom-table">
+        <thead>
+            <tr>
+                <th>Ürün</th>
+                <th>Fiyat</th>
+                <th>Stok Durumu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ürün 1</td>
+                <td>100 TL</td>
+                <td>Stokta</td>
+            </tr>
+            <tr>
+                <td>Ürün 2</td>
+                <td>200 TL</td>
+                <td>Stokta</td>
+            </tr>
+            <tr>
+                <td>Ürün 3</td>
+                <td>300 TL</td>
+                <td>Stokta</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

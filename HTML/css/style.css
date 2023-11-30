@@ -1,0 +1,32 @@
+/*h1{
+    color: red;
+}
+#h2id{
+    color: black;
+    background-color: aqua;
+}
+.h3class{
+    color: aqua;
+    background-color: black;
+}
+ul li a{
+    text-decoration: none;
+}
+.parCl span{
+    color: red;
+}
+.info .spanCl{
+    color: blue;
+}
+*/
+*{
+    color: green;
+}
+h1{
+    color: blue;
+    color: red !important;
+}
+#logo{
+    color: brown;
+    color: blue;
+}

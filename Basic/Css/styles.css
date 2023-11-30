@@ -1,0 +1,236 @@
+body, h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+.navbar ul li a:hover{
+    background-color: #a49494;
+}
+
+main{
+    padding: 0;
+}
+section{
+    text-align: center;
+    margin: 30px;
+}
+.profile-picture{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-picture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.profile-picture img:hover{
+    transform: scale(1.1);
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.info{
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: tranform 0.3s ease-in-out;
+}
+.info:hover{
+    transform: translateY(-10px);
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: tranform 0.3s ease-in-out;
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.card h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: #555;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer label,
+.footer p{
+    color: #fff;
+}
+.footer-left,
+.footer-center,
+.footer-right{
+    flex: 1;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+textarea{
+    resize: vertical;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover{
+    background-color: #555;
+}
+
+.social-media-icons{
+    text-align: center;
+    margin-top: 20px;
+}
+.social-media-icons a{
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+
+}
+.social-media-icons a:hover{
+    color: #a49494
+}
+
+/* Tablet */
+@media(max-width: 768px){
+    header{
+        background-color: brown;
+        color: #fff;
+        padding: 20px;
+    }
+    .navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar ul li{
+        margin: 0 10px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease-in-out;
+    
+    }
+    .navbar ul li a:hover{
+        background-color: #a49494;
+    }
+}
+@media (max-width: 576px) {
+    header{
+        background-color: blue;
+        color: #fff;
+        padding: 20px;
+    }
+    .navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar ul li{
+        margin: 0 10px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease-in-out;
+    
+    }
+    .navbar ul li a:hover{
+        background-color: #a49494;
+    }
+}

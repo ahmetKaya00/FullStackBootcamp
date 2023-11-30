@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        form{
+            width: 50%;
+        }
+        label,input,textarea,button{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        textarea{
+            width: calc(100%-24px);
+
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td{
+            border: 1px;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+<body>
+    <h2>Kullanıcı Bilgi Formu</h2>
+    <form>
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad" name="ad">
+
+        <label for="soyad">Soyadınız:</label>
+        <input type="text" id="soyad" name="soyad">
+
+        <label for="mesaj">Mesajınız:</label>
+        <textarea id="mesaj" name="mesaj" rows="4" cols="50"></textarea>
+
+        <button type="submit">Gönder</button>
+    </form>
+    <h2>Kullanıcı Bilgileri Formu</h2>
+    <table>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Mesaj</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam quis quibusdam maiores, placeat tempora explicabo neque esse tenetur inventore odio ullam consequatur molestiae non dolorem dolor. Cum, tempora earum?</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Smith</td>
+            <td>Consectur adiping...</td>
+        </tr>
+    </table>
+</body>
+</html>

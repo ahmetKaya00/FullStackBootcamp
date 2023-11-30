@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+        .static{
+            background-color: aqua;
+        }
+        .relative{
+            position: relative;
+            top: 30px;
+            left: 50px;
+            background-color: blueviolet;
+        }
+        .absolute{
+            position: absolute;
+            top: 80px;
+            right: 20px;
+            background-color: chocolate;
+        }
+        .fixed{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: cadetblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="static">Static</div>
+        <div class="relative">Relative</div>
+        <div class="absolute">Absolute</div>
+        <div class="fixed">Fixed</div>
+    </div>
+</body>
+</html>

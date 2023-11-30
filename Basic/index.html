@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porforio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Basic/Css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#portfolio">Portforio</a></li>
+                <li><a href="#about">Education</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Home">
+            <div class="profile-picture">
+                <img src="/Basic/img/1.jpg" alt="Profil Resmi">
+            </div>
+            <h1>Sayfama Hoşgeldin!</h1>
+            <p>Benim pörtföy siteme Hoşgeldin. Burada eğitimlerim ve bildiğim diller hakkında bilgi alabilirsin</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portföy</h2>
+            <p>Çalışmalarım</p>
+
+            <div class="info-container">
+                <div class="info">Web Development</div>
+                <div class="info">Grafhic Design</div>
+                <div class="info">Mobile App Development</div>
+                <div class="info">Game Development</div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Eğitimlerim</h2>
+            <p>Eğitimleri incele</p>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="/Basic/img/1.jpg" alt="Proje Resmi">
+                    <h3>Eğitim 1</h3>
+                    <p>Eğitim açıklaması</p>
+                    <a href="#" class="btn">Detaylar</a>
+                </div>
+                <div class="card">
+                    <img src="/Basic/img/1.jpg" alt="Proje Resmi">
+                    <h3>Eğitim 2</h3>
+                    <p>Eğitim açıklaması</p>
+                    <a href="#" class="btn">Detaylar</a>
+                </div>
+                <div class="card">
+                    <img src="/Basic/img/1.jpg" alt="Proje Resmi">
+                    <h3>Eğitim 3</h3>
+                    <p>Eğitim açıklaması</p>
+                    <a href="#" class="btn">Detaylar</a>
+                </div>
+                <div class="card">
+                    <img src="/Basic/img/1.jpg" alt="Proje Resmi">
+                    <h3>Eğitim 4</h3>
+                    <p>Eğitim açıklaması</p>
+                    <a href="#" class="btn">Detaylar</a>
+                </div>
+            </div>
+        </section>       
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer-left">
+            <p>Sitenin açıklaması olacak!</p>
+        </div>
+
+        <div class="footer-center">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nane">Adınız:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta Adresiniz:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesajınız:</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Gönder</button>
+            </form>
+        </div>
+
+        <div class="footer-right">
+            <ul class="social-media-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
