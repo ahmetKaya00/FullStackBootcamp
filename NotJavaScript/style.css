@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.notlar{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+}
+button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
