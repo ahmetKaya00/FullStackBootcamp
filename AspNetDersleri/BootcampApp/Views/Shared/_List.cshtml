@@ -1,0 +1,15 @@
+@model Bootcamp
+            <div class="card mb-3" id="kurs_@Model.Id">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="~/img/@Model.Image" class="img-fluid rounded-start" alt="My image" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                        <h3>@Model.Title</h3>
+                        <p>@Model.Description</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>       
+
