@@ -1,4 +1,6 @@
 @model List<Bootcamp>
            @foreach(var kurs in Model){
-            @await Html.PartialAsync("_List",kurs)     
+            if(kurs.isActive){
+            @await Html.PartialAsync("_List",kurs)   
+            }
              }    
