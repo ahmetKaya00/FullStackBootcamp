@@ -26,6 +26,33 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
+=======
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/BootcampEf/Views/KursKayit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc0theWl0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/BootcampEf/Views/KursKayit/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc0theWl0XGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/BootcampEf/Views/Kurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/BootcampEf/Views/Kurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/BootcampEf/Views/Kurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/BootcampEf/Views/Kurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+>>>>>>> Stashed changes
 [C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/BootcampEf/Views/Ogrenci/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

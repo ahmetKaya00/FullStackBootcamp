@@ -2,6 +2,9 @@
 
 <h2>Öğrenci Güncelle</h2>
 
+<div class="row">
+
+<div class="col-8">
 <form asp-controller="Ogrenci" asp-action="Edit" method="post">
     <input type="hidden" asp-for="OgrenciId">
     <div class="mb-3">
@@ -24,3 +27,17 @@
     <button type="submit" class="btn btn-primary">Kaydet</button>
 
 </form>
+</div>
+<div class="col-4">
+    <h4>Kayıtlı Bootcamlar</h4>
+    <hr>
+
+    <ul>
+        @foreach(var item in @Model.KursKayitlari){
+            <li>@item.Kurs.Baslik</li>
+        }
+    </ul>
+</div>
+</div>
+
+
