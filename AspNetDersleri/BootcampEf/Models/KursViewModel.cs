@@ -1,11 +1,17 @@
-namespace BootcampEf.Data
+using System.ComponentModel.DataAnnotations;
+using BootcampEf.Data;
+
+namespace BootcampEf.Models
 {
-    public class Kurs
+    public class KursViewModel
     {
         public int KursId { get; set; }
+        [Required]
+        [StringLength(50)]
+        [Display(Name = "Kurs Başlığı")]
         public string? Baslik { get; set; }
         public int OgretmenId{get; set;}
-        public Ogretmen Ogretmen {get; set;} = null!;
         public ICollection<KursKayit> KursKayitlari { get; set; } = new List<KursKayit>();
+
     }
 }
