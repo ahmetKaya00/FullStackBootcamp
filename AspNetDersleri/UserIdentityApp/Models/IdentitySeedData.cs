@@ -5,7 +5,7 @@ namespace UserIdentityApp.Models
 {
     public static class IdentitySeedData{
 
-        private const string adminUser = "Admin";
+        private const string adminUser = "admin";
         private const string adminPassword = "Admin_123";
 
         public static async void IdentityTestUser(IApplicationBuilder app){
@@ -15,13 +15,13 @@ namespace UserIdentityApp.Models
                 context.Database.Migrate();
             }
 
-            var UserManager = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+            var UserManager = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<UserManager<AppUser>>();
 
             var user = await UserManager.FindByIdAsync(adminUser);
 
             if(user == null){
-                user = new IdentityUser{
-                    UserName = adminUser,
+                user = new AppUser{
+                    FullName = "Ahmet Kaya",
                     Email = "admin@ahmetkaya.com",
                     PhoneNumber = "12345678912"
                 };
