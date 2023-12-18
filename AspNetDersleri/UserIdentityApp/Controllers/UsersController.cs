@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using UserIdentityApp.Models;
 using UserIdentityApp.ViewModels;
 
@@ -8,9 +9,11 @@ namespace UserIdentityApp.Controllers
     public class UsersController : Controller{
 
         private UserManager<AppUser> _userManager;
+        private RoleManager<AppRole> _roleManager;
 
-        public UsersController(UserManager<AppUser> userManager){
+        public UsersController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager){
             _userManager = userManager;
+            _roleManager = roleManager;
         }
 
         public IActionResult Index (){
@@ -48,10 +51,12 @@ namespace UserIdentityApp.Controllers
             var user = await _userManager.FindByIdAsync(id);
 
             if(user != null){
+                ViewBag.Roles = await _roleManager.Roles.Select(i=>i.Name).ToListAsync();
                return View(new EditViewModel{
                 Id = user.Id,
                 FullName = user.FullName,
-                Email = user.Email
+                Email = user.Email,
+                SelectedRoles = await _userManager.GetRolesAsync(user)
                });
             }
 
@@ -95,6 +100,5 @@ namespace UserIdentityApp.Controllers
             }
             return RedirectToAction("Index");
         }
-    
     }
 }
