@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -6,6 +7,7 @@ using UserIdentityApp.ViewModels;
 
 namespace UserIdentityApp.Controllers
 {
+    [Authorize]
     public class UsersController : Controller{
 
         private UserManager<AppUser> _userManager;
