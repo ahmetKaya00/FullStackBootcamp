@@ -18,8 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Kaya3\OneDrive\Belgeler\GitHub\FullStackBootcamp\AspNetDersleri\UserIdentityApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Account/Reset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Home/Index.cshtml]
@@ -48,10 +64,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Users/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kaya3/OneDrive/Belgeler/GitHub/FullStackBootcamp/AspNetDersleri/UserIdentityApp/Views/Users/Edit.cshtml]

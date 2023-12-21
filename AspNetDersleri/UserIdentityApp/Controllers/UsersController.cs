@@ -7,7 +7,7 @@ using UserIdentityApp.ViewModels;
 
 namespace UserIdentityApp.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "admin")]
     public class UsersController : Controller{
 
         private UserManager<AppUser> _userManager;
@@ -17,33 +17,13 @@ namespace UserIdentityApp.Controllers
             _userManager = userManager;
             _roleManager = roleManager;
         }
-
         public IActionResult Index (){
-
+            if(!User.IsInRole("admin")){
+                return RedirectToAction("Login","Account");
+            }
             return View(_userManager.Users);
         }
-        public IActionResult Create (){
-
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Create (CreateViewModel model){
-
-            if(ModelState.IsValid){
-                var user = new AppUser{UserName = model.UserName, Email = model.Email, FullName = model.FullName};
-                IdentityResult result = await _userManager.CreateAsync(user, model.Password);
-
-                if(result.Succeeded){
-                    return RedirectToAction("Index");
-                }
-                foreach(IdentityError err in result.Errors){
-                    ModelState.AddModelError("",err.Description);
-                }
-            }
-            return View();
-        }
-
+ 
         public async Task<IActionResult> Edit(string id){
 
             if(id == null){
